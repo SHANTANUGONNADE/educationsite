@@ -25,6 +25,9 @@
   /* utility  */
   .container {
     padding: 0 5%;
+    border: 1px solid red;
+    width: 100vh;
+    
   }
   
   a {
@@ -54,6 +57,10 @@
     line-height: 1;
     color: var(--primary-color);
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
   }
   
   .heading-tertiary {
