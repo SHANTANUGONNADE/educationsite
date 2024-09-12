@@ -6,7 +6,7 @@
           --color-bg2: #424890;
   }
   
-  *,
+
   *{
     margin: 0;
     padding: 0;
@@ -66,6 +66,7 @@
   header {
     height: 10vh;
     display: flex;
+
   }
   
   .main-nav {
@@ -75,12 +76,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* border: 2px solid red; */
   }
   
   .main-nav ul,
   .sub-nav ul {
     list-style: none;
     display: flex;
+    
   }
   
   .main-nav ul li a {
@@ -288,5 +291,20 @@
     .contact-form .input50 {
       width: 100%;
     }
+  }
+  @media(max-width:412px){
+    header{
+      width: 100vh;
+
+    }
+    footer{
+      width: 100vh;
+    }
+    .heading-primary{
+      width: 90vh;
+      /* border: 2px solid red; */
+      
+    }
+    
   }
   
