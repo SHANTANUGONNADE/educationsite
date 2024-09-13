@@ -305,8 +305,39 @@
     .heading-primary{
       width: 90vh;
       /* border: 2px solid red; */
+    }
+    .container-1{
+      /* border: 1px solid red; */
+      width: 100vh;
+      padding: 20px;
+      
       
     }
-    
+    .description h2{
+      align-items: center;
+      /* border: 1px solid red; */
+      justify-content: center;
+      display: flex;
+
+    }
+    .container{
+      margin-top: 20%;
+      /* border :1px solid red; */
+      width: 90vh;
+      height: 80vh;
+      
+    }
+    .btn{
+      width: 30vh;
+      /* border :1px solid red; */
+     
+    }
+    .description p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border :1px solid red; */
+      width: 95vh;
+    }
   }
   
